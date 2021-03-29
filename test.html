@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Memory Game">
+    <meta name="keywords" content="memory, test, game, photographic">
+    <meta name="author" content="Adedunmola Adeiye">
+    <title>!Memorizer</title>
+    <link rel="stylesheet" href="test.css">
+
+</head>
+<body >
+    <div class="wrapper">
+        <header>
+            <h1>!Memorizer</h1>
+        </header>
+        <button class='btn' id='butn' onclick="start()">Start</button>
+
+        <h1 id='show'>Welcome to !Memorizer</h1>
+
+        <div id='info'>
+            <h5>Click the <strong>start</strong> button to begin!</h5>
+            <h6>Test your memory by writing down the numbers displayed and the sequence at which they are dispalyed</h6>
+            <h6><strong>Note: </strong>Each number should be Separated with commas</h6>
+        </div>
+
+    
+        <input type="text" placeholder="  Separate numbers with commas e.g '5,4,3' '6,5'"  name="" id="answer"> <br />
+        <button class='btn'  onclick="check()">Check</button>
+
+        <footer>Built by Adedunmola</footerr>
+    </div>
+
+    <div id="modal">
+        <h5>Score</h5>
+        <h1 id="scored">0</h1>
+        <h6 id='review'>Loren ipsum igntia matia figma pira tanfdraun</h6>
+        <button class='btn' id='butn' onclick="start()">Play Again</button>
+    </div>
+
+<script src="test.js"></script>
+</body>
+</html>
